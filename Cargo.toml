@@ -1,0 +1,13 @@
+[package]
+name = "d128_alga"
+version = "0.1.0"
+authors = ["Craig Joly <craig.joly@amd.com>"]
+
+[dependencies]
+alga = { path = "../alga/alga", features = ["decimal"] }
+decimal = { path="../decimal", features = ["alga-support"] }
+num-traits = "0.2.6"
+#decimal = "2.0.4"
+ncollide2d = "0.17.1"
+
+
